@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(216, 192, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+  /*For buttons to work on iOS*/
+  .btn {
+    cursor: pointer;
+  }
+  .btn:hover, .btn:active{ 
+    color: rgb(0, 255, 136);
+  }
+  
+  .jumbotron {
+    text-align: center;
+    color: rgb(41, 103, 196);
+    font-family: cursive;
+    background-color: rgb(202, 162, 210);
+  }
+  
+  .jumbotron h1 {
+    font-size: 100px;  
+  }
+  
+  .scoreBoard {
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  #currentWord {
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .center {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .btn-primary {
+    margin: 0 10px 10px 0;
+    width: 40px;
+    height: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;  
+  }
+  .btn-primary:hover {
+      background: black;
+      border: solid 1px $grey;
+      color: #FFF88B;
+    }
+  .btn-primary:disabled {
+      background: #68349E;
+      border: solid 1px;
+      color: #fff;
+    }  
+  footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  @media only screen and (max-width: 800px){
+    .jumbotron h1 {
+    font-size: 80px;  
+  }
+  }
+  @media screen and (max-width: 600px){
+  .jumbotron h1 {
+    font-size: 50px;  
+  }
+  
